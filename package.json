@@ -15,14 +15,29 @@
     "db:reset": "npm run db:schema && npm run db:seed"
   },
   "dependencies": {
+    "dotenv": "^17.2.1",
     "express": "^5.1.0",
-    "pg": "^8.14.1"
+    "pg": "^8.16.3"
   },
   "devDependencies": {
-    "supertest": "^7.1.0",
-    "vitest": "^3.1.2"
+    "supertest": "^7.1.4",
+    "vitest": "^3.2.4"
   },
   "engines": {
     "node": ">=22"
-  }
+  },
+  "version": "1.0.0",
+  "description": "Filez is a next-gen file management platform built for extreme speed and performance. Your folders and files have never felt snappier!",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelajohnson/filez.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelajohnson/filez/issues"
+  },
+  "homepage": "https://github.com/rafaelajohnson/filez#readme"
 }
